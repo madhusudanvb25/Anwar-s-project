@@ -73,27 +73,27 @@ const HeroSection: React.FC = () => {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
             {slides[currentSlide].title}
           </h1>
-          
+
           <div className="w-24 h-1 bg-emerald-400 mx-auto mb-6"></div>
-          
+
           <p className="text-xl md:text-2xl mb-4 text-emerald-200 animate-fade-in-delay">
             {slides[currentSlide].subtitle}
           </p>
-          
+
           <p className="text-lg mb-8 max-w-2xl mx-auto animate-fade-in-delay-2">
             {slides[currentSlide].description}
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-delay-3">
-            <button 
+            <button
               onClick={scrollToPortfolio}
               className="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-3 rounded-full font-semibold transition-colors flex items-center"
             >
               <Play className="w-5 h-5 mr-2" />
               Watch My Work
             </button>
-            
-            <button 
+
+            <button
               onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
               className="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-gray-900 transition-colors"
             >
@@ -128,13 +128,6 @@ const HeroSection: React.FC = () => {
             }`}
           />
         ))}
-      </div>
-
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-30 animate-bounce">
-        <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-white/70 rounded-full mt-2 animate-pulse"></div>
-        </div>
       </div>
     </section>
   );
