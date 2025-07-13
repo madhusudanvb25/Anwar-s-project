@@ -11,7 +11,6 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, setActiveSection
 
   const navigationItems = [
     { id: 'home', label: 'Home' },
-    { id: 'services', label: 'Services' },
     { id: 'portfolio', label: 'Portfolio' },
     { id: 'about', label: 'About Me' },
     { id: 'contact', label: 'Contact Me' }
@@ -32,7 +31,7 @@ const Navigation: React.FC<NavigationProps> = ({ activeSection, setActiveSection
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <span className="text-2xl font-bold text-emerald-600">Skandana</span>
+              <span className="text-2xl font-bold text-emerald-600">PELFILMS</span>
             </div>
           </div>
           

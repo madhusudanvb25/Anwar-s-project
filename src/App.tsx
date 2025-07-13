@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import LoadingAnimation from './components/LoadingAnimation';
 import Navigation from './components/Navigation';
 import HeroSection from './components/HeroSection';
-import ServicesSection from './components/ServicesSection';
 import PortfolioSection from './components/PortfolioSection';
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
@@ -48,7 +47,6 @@ function App() {
     <div className="min-h-screen">
       <Navigation activeSection={activeSection} setActiveSection={setActiveSection} />
       <HeroSection />
-      <ServicesSection />
       <PortfolioSection />
       <AboutSection />
       <ContactSection />

@@ -34,7 +34,7 @@ const LoadingAnimation: React.FC<LoadingAnimationProps> = ({ onComplete }) => {
       {/* Content */}
       <div className="text-center relative z-10">
         <h1 className="text-6xl md:text-8xl font-bold text-white mb-4 animate-fade-in">
-          Skandana Creations
+          PEL FILMS
         </h1>
         <p className="text-2xl text-emerald-100 animate-fade-in-delay">
           Storytelling Beyond Labels
