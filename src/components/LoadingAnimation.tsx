@@ -11,7 +11,7 @@ const LoadingAnimation: React.FC<LoadingAnimationProps> = ({ onComplete }) => {
     const timer = setTimeout(() => {
       setIsVisible(false);
       setTimeout(onComplete, 500); // Wait for fade out
-    }, 10000); // 10 seconds visible + 0.5 second fade
+    }, 5000); // 10 seconds visible + 0.5 second fade
 
     return () => clearTimeout(timer);
   }, [onComplete]);
