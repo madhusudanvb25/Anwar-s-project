@@ -30,7 +30,7 @@ const MobileContactButtons: React.FC = () => {
       {isExpanded && (
         <div className="mb-4 space-y-3">
           <a
-            href="https://wa.me/15551234567?text=Hi%20Anwar,%20I'm%20interested%20in%20your%20cinematography%20services"
+            href="https://wa.me/+919964758833?text=Hi%20Anwar,%20I'm%20interested%20in%20your%20cinematography%20services"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-12 h-12 bg-green-500 text-white rounded-full shadow-lg hover:bg-green-600 transition-colors animate-fade-in"
@@ -39,14 +39,14 @@ const MobileContactButtons: React.FC = () => {
           </a>
           
           <a
-            href="mailto:anwar@skandana.com?subject=Cinematography%20Inquiry"
+            href="mailto:info@pelfilms.in?subject=Cinematography%20Inquiry"
             className="flex items-center justify-center w-12 h-12 bg-blue-500 text-white rounded-full shadow-lg hover:bg-blue-600 transition-colors animate-fade-in"
           >
             <Mail className="w-6 h-6" />
           </a>
           
           <a
-            href="https://instagram.com/skandana_creations"
+            href="https://www.instagram.com/cinesoulanwar?igsh=NWZ3aGZuaGNuZzhr"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-12 h-12 bg-pink-500 text-white rounded-full shadow-lg hover:bg-pink-600 transition-colors animate-fade-in"

@@ -27,9 +27,13 @@ const AboutSection: React.FC = () => {
               About Anwar
             </h2>
             <p className="text-xl text-emerald-100 mb-6">
-              I'm a Cinematographer and Video Editor who believes in storytelling beyond labels. 
-              My lens is driven by emotion, light, and rhythm — whether it's capturing unscripted 
-              moments or crafting visuals that feel deeply human.
+             Hi, I’m Anwar—a Cinematographer and Visual Storyteller based in Bangalore.
+
+My journey into filmmaking began with curiosity and a camera. While working as an engineer in a defense manufacturing company, I followed my passion for storytelling on the side—capturing moments, experimenting with visuals, and building my understanding of the craft. In 2022, I took a leap of faith and pursued formal training at Bangalore Film Academy, which laid the foundation for my professional career behind the lens.
+
+Since then, I’ve worked across independent short films, assisted on a Telugu feature (awaiting release), and created impactful social media content for Karnataka’s political leaders during my time at Vote Market. Currently, I’m with MERAGI as a Cinematographer and Editor, crafting cinematic wedding documentaries that balance emotional storytelling with stylized, vibrant visuals.
+
+I approach every frame with intent—to create work that feels timeless and to keep exploring new genres and stories yet to be told.
             </p>
             <p className="text-lg text-emerald-200 mb-6">
               Though much of my recent work has been in weddings and social formats like reels, 

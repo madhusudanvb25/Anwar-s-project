@@ -9,13 +9,13 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <Camera className="w-8 h-8 text-emerald-400 mr-3" />
-              <span className="text-2xl font-bold">Skandana Creations</span>
+              <span className="text-2xl font-bold">PelFilms</span>
             </div>
             <p className="text-gray-400 mb-4">
               Storytelling beyond labels. Capturing emotions through cinematic vision.
             </p>
             <p className="text-sm text-gray-500">
-              © 2024 Skandana Creations. All rights reserved.
+              © 2025 Madhusudan's Creations. All rights reserved.
             </p>
           </div>
           
@@ -33,16 +33,16 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li>anwar@skandana.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>Available Worldwide</li>
+              <li>info@pelfilms.in</li>
+              <li>+91-9964758833</li>
+              <li>Bangalore</li>
             </ul>
           </div>
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center">
-            Made with <Heart className="w-4 h-4 mx-2 text-red-500" /> by Anwar
+            Made with <Heart className="w-4 h-4 mx-2 text-red-500" /> by Madhusudan_vb
           </p>
         </div>
       </div>

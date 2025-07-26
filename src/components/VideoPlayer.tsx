@@ -142,14 +142,26 @@ const VideoPlayer: React.FC<VideoPlayerProps> = ({ src, poster, title, onClose }
               <span>{formatTime(currentTime)}</span>
               <span>{formatTime(duration)}</span>
             </div>
-            
+
             <input
               type="range"
               min="0"
               max={duration || 0}
               value={currentTime}
               onChange={handleSeek}
-              className="w-full h-2 bg-gray-600 rounded-lg appearance-none cursor-pointer mb-4 video-progress"
+              className="w-full appearance-none h-2 bg-gray-700 rounded-lg outline-none transition-all duration-300 
+                         focus:ring-2 focus:ring-emerald-400
+                         [&::-webkit-slider-thumb]:appearance-none 
+                         [&::-webkit-slider-thumb]:w-4 
+                         [&::-webkit-slider-thumb]:h-4 
+                         [&::-webkit-slider-thumb]:bg-emerald-500 
+                         [&::-webkit-slider-thumb]:rounded-full 
+                         [&::-webkit-slider-thumb]:cursor-pointer
+                         [&::-moz-range-thumb]:w-4 
+                         [&::-moz-range-thumb]:h-4 
+                         [&::-moz-range-thumb]:bg-emerald-500 
+                         [&::-moz-range-thumb]:rounded-full 
+                         [&::-moz-range-thumb]:cursor-pointer mb-4"
             />
             
             <div className="flex items-center justify-between">
