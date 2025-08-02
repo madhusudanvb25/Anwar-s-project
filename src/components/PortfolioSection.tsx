@@ -32,21 +32,21 @@ const PortfolioSection: React.FC = () => {
   const portfolioFolders: PortfolioFolder[] = [
     {
       id: 'weddings',
-      name: 'Wedding Films',
-      description: 'Capturing love stories with cinematic elegance',
+      name: 'Wedding Documents',
+      description: 'This folder holds full-length wedding documentary films—crafted to tell real, emotional, and immersive stories. Each film goes beyond just the rituals, capturing the laughter, the tears, the unspoken moments, and the beautiful chaos of the wedding journey. From pre-wedding emotions to the final vows, these documentaries offer a timeless reflection of love, family, and celebration.',
       count: 15,
       icon: <Folder className="w-8 h-8" />,
       items: [
         {
           id: 'w1',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-          poster: 'https://images.pexels.com/photos/2959192/pexels-photo-2959192.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Sarah & David Wedding',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Ranjana_Priya_Wedding_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Ranjana%20Priya_Wedding%20Document-001_Thumbnail.png',
+          title: 'The wedding story of Abhijit & RanjanaPriya',
           description: 'A beautiful outdoor ceremony capturing pure joy and love',
           date: 'June 2024',
           location: 'Tuscany, Italy',
-          duration: '3:45'
+          duration: '6:17'
         },
         {
           id: 'w2',
@@ -141,8 +141,8 @@ const PortfolioSection: React.FC = () => {
     },
     {
       id: 'commercial',
-      name: 'Brand Stories',
-      description: 'Corporate narratives that connect and inspire',
+      name: 'Wedding Highlights',
+      description: 'This folder contains beautifully edited highlight videos that showcase the most memorable moments from each wedding celebration. Capturing the key rituals, joyful emotions, and candid smiles, these videos offer a concise and heartfelt glimpse into the essence of the day—perfect for reliving and sharing those special memories.',
       count: 12,
       icon: <Folder className="w-8 h-8" />,
       items: [
@@ -249,9 +249,9 @@ const PortfolioSection: React.FC = () => {
       ]
     },
     {
-      id: 'music',
-      name: 'Music Videos',
-      description: 'Visual symphonies that amplify artistic expression',
+      id: 'Essence Cuts',
+      name: 'Essence Cuts',
+      description: 'A collection of short, story-driven teaser videos that capture the heart and soul of each wedding celebration. These concise edits highlight the emotions, key moments, and unique stories of the couples—offering a quick yet impactful glimpse into their special day.',
       count: 10,
       icon: <Folder className="w-8 h-8" />,
       items: [
@@ -360,9 +360,9 @@ const PortfolioSection: React.FC = () => {
       ]
     },
     {
-      id: 'documentary',
-      name: 'Documentary Films',
-      description: 'Real stories told with authentic vision',
+      id: 'Reels & Shorts',
+      name: 'Reels & Shorts',
+      description: 'A vibrant collection of short, dynamic reels capturing fun, candid, and colorful moments from the weddings. Perfect for quick shares and social media, these videos showcase joyful rituals, lively celebrations, and unforgettable smiles in a bite-sized format.',
       count: 8,
       icon: <Folder className="w-8 h-8" />,
       items: [
@@ -449,9 +449,9 @@ const PortfolioSection: React.FC = () => {
       ]
     },
     {
-      id: 'fashion',
-      name: 'Fashion & Lifestyle',
-      description: 'Style narratives with cinematic elegance',
+      id: 'Pre-Wedding Films',
+      name: 'Pre-Wedding',
+      description: 'A curated collection of intimate moments, cinematic visuals, and heartfelt storytelling. Each film reflects the couple’s unique bond, captured with a balance of emotion, aesthetics, and rhythm. From natural light portraits to stylized narratives, these edits showcase my visual style and ability to translate love into timeless frames.',
       count: 14,
       icon: <Folder className="w-8 h-8" />,
       items: [
@@ -557,7 +557,8 @@ const PortfolioSection: React.FC = () => {
         }
       ]
     },
-    {
+   
+/*    {
       id: 'personal',
       name: 'Personal Projects',
       description: 'Passion-driven creative explorations',
@@ -676,7 +677,7 @@ const PortfolioSection: React.FC = () => {
           duration: '8:10'
         }
       ]
-    }
+    } */
   ];
 
   const handleFolderClick = (folderId: string) => {

@@ -46,7 +46,7 @@ const MobileContactButtons: React.FC = () => {
           </a>
           
           <a
-            href="https://www.instagram.com/cinesoulanwar?igsh=NWZ3aGZuaGNuZzhr"
+            href="https://www.instagram.com/pelfimss?igsh=bmxwa290MWFvMnJ3"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center w-12 h-12 bg-pink-500 text-white rounded-full shadow-lg hover:bg-pink-600 transition-colors animate-fade-in"

@@ -220,7 +220,7 @@ const ContactSection: React.FC = () => {
                 </a>
 
                 <a
-                  href="https://www.instagram.com/cinesoulanwar?igsh=NWZ3aGZuaGNuZzhr"
+                  href="https://www.instagram.com/pelfimss?igsh=bmxwa290MWFvMnJ3"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-between p-4 bg-pink-50 hover:bg-pink-100 rounded-lg transition-colors"

@@ -3,9 +3,9 @@ import { Camera, Award, Users, Clock } from 'lucide-react';
 
 const AboutSection: React.FC = () => {
   const stats = [
-    { icon: <Camera className="w-6 h-6" />, value: '200+', label: 'Projects Completed' },
-    { icon: <Award className="w-6 h-6" />, value: '5+', label: 'Years Experience' },
-    { icon: <Users className="w-6 h-6" />, value: '150+', label: 'Happy Clients' },
+    { icon: <Camera className="w-6 h-6" />, value: '50+', label: 'Projects Completed' },
+    { icon: <Award className="w-6 h-6" />, value: '3+', label: 'Years Experience' },
+    { icon: <Users className="w-6 h-6" />, value: '30+', label: 'Happy Clients' },
     { icon: <Clock className="w-6 h-6" />, value: '24/7', label: 'Support Available' }
   ];
 
@@ -40,10 +40,6 @@ I approach every frame with intent—to create work that feels timeless and to k
               my vision isn't confined to a genre. I'm drawn to any story that has soul — whether 
               it's a brand narrative, a documentary piece, a music video, or a passion project.
             </p>
-            <p className="text-lg text-emerald-200 mb-8">
-              Currently working with MERAGI, I've built strong ground-level experience in both 
-              filming and editing, shaping content that speaks visually — and stays with the audience.
-            </p>
             
             <div className="grid grid-cols-2 gap-6">
               {stats.map((stat, index) => (
@@ -61,7 +57,12 @@ I approach every frame with intent—to create work that feels timeless and to k
           <div className="relative">
             <div className="relative z-10">
               <img
-                src="https://images.pexels.com/photos/1174746/pexels-photo-1174746.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="https://pub-961c95f591224066973079e771269d48.r2.dev/Anwar's-certificate.jpg"
+                alt="Anwar - Cinematographer"
+                className="w-full rounded-lg shadow-2xl"
+              />
+              <img
+                src="https://pub-961c95f591224066973079e771269d48.r2.dev/Anwar's-award.jpg"
                 alt="Anwar - Cinematographer"
                 className="w-full rounded-lg shadow-2xl"
               />
