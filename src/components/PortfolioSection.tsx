@@ -34,32 +34,32 @@ const PortfolioSection: React.FC = () => {
       id: 'weddings',
       name: 'Wedding Documents',
       description: 'This folder holds full-length wedding documentary films—crafted to tell real, emotional, and immersive stories. Each film goes beyond just the rituals, capturing the laughter, the tears, the unspoken moments, and the beautiful chaos of the wedding journey. From pre-wedding emotions to the final vows, these documentaries offer a timeless reflection of love, family, and celebration.',
-      count: 15,
+      count: 2,
       icon: <Folder className="w-8 h-8" />,
       items: [
         {
           id: 'w1',
           type: 'video',
-          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Ranjana_Priya_Wedding_OPTIMIZED.mp4',
-          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Ranjana%20Priya_Wedding%20Document-001_Thumbnail.png',
-          title: 'The wedding story of Abhijit & RanjanaPriya',
-          description: 'A beautiful outdoor ceremony capturing pure joy and love',
-          date: 'June 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Ranjana%20Priya%20Wedding%20Document-001/Ranjana_Priya_Wedding_OPTIMIZED_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Ranjana%20Priya%20Wedding%20Document-001/Ranjana%20Priya_Wedding%20Document-001_Thumbnail.png',
+          title: '#AbhiRaa – Where Laughter Meets Love',
+          description: 'The celebration begins with Ranjana’s infectious laughter and a whole lot of fun, setting the perfect tone for a love story like no other. Titled #AbhiRa—a perfect blend of Abhijith and Ranjana—this documentary takes you on a heartwarming journey filled with joy, family emotions, and the deep, unspoken bond this couple shares. From light-hearted beginnings to moments that touch the soul, witness a wedding that’s as real, raw, and beautiful as their love.',
+          /*date: 'June 2024',
           location: 'Tuscany, Italy',
-          duration: '6:17'
+          duration: '6:17'*/
         },
         {
           id: 'w2',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
-          poster: 'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Emma & James Wedding',
-          description: 'Intimate garden ceremony with cinematic storytelling',
-          date: 'May 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/wedding%20Documentary-20250726T090530Z-1-002/Anjana%20Premdharan%2003-04-2025%20Wedding.Reception%20Highlight%20Pid.11608%2001_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/wedding%20Documentary-20250726T090530Z-1-002/Anjana%20Premdharan%2003-04-2025%20Wedding.Reception%20Highlight%20Pid.11608%2001_Thumbnail.png',
+          title: 'Hari & Anjana – A Celebration of Love, Laughter & Tears',
+          description: 'From joyful dances to teary-eyed vows, this wedding documentary captures every unforgettable moment of Hari and Anjana’s beautiful journey. With emotions running deep and laughter filling the air, this film is more than just a wedding video—it’s a story of love, connection, and celebration. Watch the magic unfold as families come together, friends light up the celebration, and two hearts promise forever in the most heartwarming and fun-filled way.',
+          /*date: 'May 2024',
           location: 'Napa Valley, CA',
-          duration: '4:12'
+          duration: '4:12'*/
         },
-        {
+        /*{
           id: 'w3',
           type: 'image',
           src: 'https://images.pexels.com/photos/1444442/pexels-photo-1444442.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -136,28 +136,28 @@ const PortfolioSection: React.FC = () => {
           description: 'Artistic shots of wedding elements',
           date: 'September 2023',
           location: 'Lake Como, Italy'
-        }
+        }*/
       ]
     },
     {
-      id: 'commercial',
+      id: 'Wedding Highlights',
       name: 'Wedding Highlights',
       description: 'This folder contains beautifully edited highlight videos that showcase the most memorable moments from each wedding celebration. Capturing the key rituals, joyful emotions, and candid smiles, these videos offer a concise and heartfelt glimpse into the essence of the day—perfect for reliving and sharing those special memories.',
-      count: 12,
+      count: 3,
       icon: <Folder className="w-8 h-8" />,
       items: [
         {
           id: 'c1',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
-          poster: 'https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Tech Startup Campaign',
-          description: 'Innovation meets human connection',
-          date: 'August 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Highlights-20250726T090525Z-1-002/Vaishnavi%20Desai%2017-02-2025%20Wedding.Highlight%20Pid.11433%2001%201.Mp4_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Highlights-20250726T090525Z-1-002/Vaishnavi%20Desai%2017-02-2025%20Wedding.Highlight%20Pid.11433%2001%201_Thumbnail.png',
+          title: 'Vaishnavi & Sunandhan – A Celebration Etched in Love',
+          description: 'In a celebration woven with grace, laughter, and timeless rituals, Vaishnavi and Sunandhan’s wedding unfolds like a dream. This highlight captures the vibrant energy of their union—the joyful smiles, the emotional moments, and the beautiful bond that brought two souls and two families together. From the elegance of each ceremony to the spark in their eyes, every frame is a testament to a love that’s meant to last a lifetime.',
+          /*date: 'August 2024',
           location: 'Silicon Valley, CA',
-          duration: '2:30'
+          duration: '2:30'*/
         },
-        {
+        /*{
           id: 'c2',
           type: 'image',
           src: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -165,19 +165,19 @@ const PortfolioSection: React.FC = () => {
           description: 'Professional executive portraits',
           date: 'July 2024',
           location: 'Manhattan, NYC'
-        },
+        },*/
         {
           id: 'c3',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
-          poster: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Product Launch Video',
-          description: 'Dynamic showcase of innovation',
-          date: 'June 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Highlights-20250726T090525Z-1-003/Sahana%20Krishnamurthy%2013-02-2025%20Mehendi.Reception.Sangeeth.Highlight%20Pid.11305%2001-001_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Highlights-20250726T090525Z-1-003/Sahana%20Krishnamurthy%2013-02-2025%20Mehendi.Reception.Sangeeth.Highlight%20Pid.11305%2001-001_Thumbnail.png',
+          title: 'Sahana & Joseph – A Journey of Love, Grace & Togetherness',
+          description: 'This wedding highlight brings to life the beautiful celebration of Sahana and Joseph—a day filled with heartfelt emotions, meaningful traditions, and pure joy. From the quiet, intimate moments to the laughter shared with loved ones, every frame reflects the deep bond they share. Watch as two souls come together with grace, love, and the warmth of family all around. This is more than a wedding—it’s the beginning of a lifetime, captured with care and emotion.',
+          /*date: 'June 2024',
           location: 'Los Angeles, CA',
-          duration: '1:45'
+          duration: '1:45'*/
         },
-        {
+        /*{
           id: 'c4',
           type: 'image',
           src: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -185,19 +185,19 @@ const PortfolioSection: React.FC = () => {
           description: 'Behind-the-scenes workplace moments',
           date: 'May 2024',
           location: 'Austin, TX'
-        },
+        },*/
         {
           id: 'c5',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
-          poster: 'https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Brand Documentary',
-          description: 'The story behind the company',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Highlights-20250726T090525Z-1-003/Sahana%20Krishnamurthy%2013-02-2025%20Wedding.Highlight%20Pid.11305%2001_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Highlights-20250726T090525Z-1-003/Sahana%20Krishnamurthy%2013-02-2025%20Wedding.Highlight%20Pid.11305%2001_Thumbnail.png',
+          title: 'Sahana & Joseph – A Wedding Day Through the Eyes of Family',
+          description: 'Told through the heartfelt voices of Sahana’s sister and Joseph’s brother, this wedding highlight captures the essence of a day filled with love, meaning, and unforgettable moments. As the couple ties the knot surrounded by tradition and joy, their story unfolds not just through visuals—but through the eyes of those who know them best. With every word and every frame, witness a celebration where love isn’t just seen, but deeply felt.',
           date: 'April 2024',
           location: 'Seattle, WA',
           duration: '8:20'
         },
-        {
+        /*{
           id: 'c6',
           type: 'image',
           src: 'https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -245,39 +245,39 @@ const PortfolioSection: React.FC = () => {
           description: 'Corporate milestone photography',
           date: 'November 2023',
           location: 'Boston, MA'
-        }
+        }*/
       ]
     },
     {
       id: 'Essence Cuts',
       name: 'Essence Cuts',
       description: 'A collection of short, story-driven teaser videos that capture the heart and soul of each wedding celebration. These concise edits highlight the emotions, key moments, and unique stories of the couples—offering a quick yet impactful glimpse into their special day.',
-      count: 10,
+      count: 7,
       icon: <Folder className="w-8 h-8" />,
       items: [
         {
           id: 'm1',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
-          poster: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Indie Rock Anthem',
-          description: 'High-energy performance with creative visuals',
-          date: 'July 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-001/Mohan%2013-04-2025%20Reception.Highlight%20Pid.17898%2001_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-001/Mohan_13-04-2025_Reception.Highlight_PID.17898_01.png',
+          title: '🎞️ Mohan & Preetiga – Reception Story',
+          description: 'This short film tells the story of their celebration, capturing the magic and warmth shared with family and friends as they embark on their new journey together.',
+          /*date: 'July 2024',
           location: 'Nashville, TN',
-          duration: '3:42'
+          duration: '3:42'*/
         },
         {
           id: 'm2',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
-          poster: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Acoustic Sessions',
-          description: 'Intimate performance in natural setting',
-          date: 'June 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-001/Monica%20Suri%20Teaser_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-001/Monica%20suri_Teaser.png',
+          title: '🎞️ Monica & Suri – A Celebration of Love',
+          description: 'This short story beautifully blends the energy of Monica & Suri’s pre-wedding festivities with the heartfelt moments of their wedding day.  this film captures the essence of a couple deeply in love and surrounded by warmth. It’s not just a celebration—it’s a story of two souls coming together with tradition, laughter, and grace.',
+          /*date: 'June 2024',
           location: 'Topanga Canyon, CA',
-          duration: '4:15'
+          duration: '4:15'*/
         },
-        {
+        /*{
           id: 'm3',
           type: 'image',
           src: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -285,19 +285,19 @@ const PortfolioSection: React.FC = () => {
           description: 'Live performance energy captured',
           date: 'May 2024',
           location: 'Madison Square Garden, NYC'
-        },
+        },*/
         {
           id: 'm4',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-          poster: 'https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Hip-Hop Visual Story',
-          description: 'Urban narrative with dynamic cinematography',
-          date: 'April 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-001/Ranjana%20Priya%20Haldi%20Teaser_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-001/Ranjana%20Priya_Haldi_Teaser.png',
+          title: '🎞️ Abhijith & Ranjana – Haldi Story',
+          description: 'A splash of yellow, laughter that doesn’t end, and love in every frame. This short story captures the raw, candid joy of Abhijith & Ranjana’s haldi ceremony—where traditions meet playful chaos, and every smear of turmeric carries warmth, blessings, and emotion.',
+          /*date: 'April 2024',
           location: 'Atlanta, GA',
-          duration: '3:28'
+          duration: '3:28'*/
         },
-        {
+        /*{
           id: 'm5',
           type: 'image',
           src: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -305,19 +305,19 @@ const PortfolioSection: React.FC = () => {
           description: 'Behind-the-scenes recording moments',
           date: 'March 2024',
           location: 'Abbey Road Studios, London'
-        },
+        },*/
         {
           id: 'm6',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
-          poster: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Electronic Dance Visual',
-          description: 'Synchronized lights and movement',
-          date: 'February 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-001/Ranjana%20Priya%20Sangeet%20Teaser_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-001/Ranjana%20Priya_Sangeet_Teaser.png',
+          title: '🎞️ Abhijith & Ranjana – Sangeet Story',
+          description: 'Lights, music, and endless moves—this sangeet celebration was nothing short of electric. With family performances, shared laughter, and that unmistakable spark between Abhijith & Ranjana, this short story is a celebration of togetherness and rhythm straight from the heart.',
+          /*date: 'February 2024',
           location: 'Ibiza, Spain',
-          duration: '5:12'
+          duration: '5:12'*/
         },
-        {
+        /*{
           id: 'm7',
           type: 'image',
           src: 'https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -325,19 +325,19 @@ const PortfolioSection: React.FC = () => {
           description: 'Creative portraits of musicians',
           date: 'January 2024',
           location: 'Brooklyn, NYC'
-        },
+        },*/
         {
           id: 'm8',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
-          poster: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Folk Music Documentary',
-          description: 'Traditional music meets modern visuals',
-          date: 'December 2023',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-001/Ranjana%20Priya%20Wedding%20Teaser_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-001/Ranjana%20Priya_Wedding_Teaser.png',
+          title: '🎞️ Abhijith & Ranjana – Wedding Story',
+          description: 'A timeless ceremony, emotions flowing quietly beneath the surface, and two hearts becoming one. This wedding short story captures the grace, depth, and unspoken love that defined Abhijith & Ranjana’s big day—woven with rituals, blessings, and soulful moments that will linger forever.',
+          /*date: 'December 2023',
           location: 'Austin, TX',
-          duration: '6:45'
+          duration: '6:45'*/
         },
-        {
+        /*{
           id: 'm9',
           type: 'image',
           src: 'https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -345,17 +345,30 @@ const PortfolioSection: React.FC = () => {
           description: 'Multi-day music festival documentation',
           date: 'November 2023',
           location: 'Coachella, CA'
-        },
+        },*/
+        
         {
           id: 'm10',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
-          poster: 'https://images.pexels.com/photos/1190297/pexels-photo-1190297.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Classical Crossover',
-          description: 'Orchestra meets contemporary visuals',
-          date: 'October 2023',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-002/Krishna%20Rai%20Teaser_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-002/Krishna%20Rai%20Teaser_Thumbnail.png',
+          title: '🎞️ Krishna & Swati – Short Story',
+          description: 'A glimpse into three days of love, laughter, and unforgettable memories. This short story captures the vibrant essence of Krishna & Swati’s wedding celebrations—filled with rituals, emotions, and the special bond they share, all told in just one beautiful minute.',
+          /*date: 'October 2023',
           location: 'Vienna, Austria',
-          duration: '4:33'
+          duration: '4:33'*/
+        },
+        
+        {
+          id: 'm10',
+          type: 'video',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-002/Vinuth%20%26%20Suma%2002-05-2025%20Engagement.Teaser%20Pid.18745%2001_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Essence%20Cuts-20250726T090510Z-1-002/Vinuth%20%26%20Suma%2002-05-2025%20Engagement.Teaser%20Pid.18745_Thumbnail.png',
+          title: '🎞️ Vinuth & Suma – Sangeet & Engagement Short Story',
+          description: 'A celebration full of rhythm, rituals, and raw emotion—this short story captures the joy of Vinuth & Suma’s Sangeet and Engagement. From energetic dance floors to heartfelt moments of promise, it’s a one-minute glimpse into the beginning of a beautiful journey.',
+          /*date: 'October 2023',
+          location: 'Vienna, Austria',
+          duration: '4:33'*/
         }
       ]
     },
@@ -363,21 +376,21 @@ const PortfolioSection: React.FC = () => {
       id: 'Reels & Shorts',
       name: 'Reels & Shorts',
       description: 'A vibrant collection of short, dynamic reels capturing fun, candid, and colorful moments from the weddings. Perfect for quick shares and social media, these videos showcase joyful rituals, lively celebrations, and unforgettable smiles in a bite-sized format.',
-      count: 8,
+      count: 3,
       icon: <Folder className="w-8 h-8" />,
       items: [
         {
           id: 'd1',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
-          poster: 'https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Environmental Impact',
-          description: 'Climate change through human stories',
-          date: 'September 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Reels-20250726T090527Z-1-001/Jasman%2018-01-2025%20Chooda%20Reel%20Pid.15056%2001_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Reels-20250726T090527Z-1-001/Jasman%2018-01-2025%20Chooda%20Reel%20Pid.15056%2001_Thumbnail.png',
+          title: '🎥 Reel 2 – Jasman’s Chooda Ceremony',
+          description: 'An emotional and beautiful moment from Jasman’s chooda ritual. A quiet, heartfelt reel showing the bride surrounded by love and blessings before stepping into her new chapter.',
+          /*date: 'September 2024',
           location: 'Amazon Rainforest, Brazil',
-          duration: '25:30'
+          duration: '25:30'*/
         },
-        {
+        /*{
           id: 'd2',
           type: 'image',
           src: 'https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -385,19 +398,19 @@ const PortfolioSection: React.FC = () => {
           description: 'Community leaders making change',
           date: 'August 2024',
           location: 'Detroit, MI'
-        },
+        },*/
         {
           id: 'd3',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
-          poster: 'https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Urban Transformation',
-          description: 'City renewal through community eyes',
-          date: 'July 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Reels-20250726T090527Z-1-001/Jasman%2018-01-2025%20Groom%20Haldi%20Reel%20Pid.15056%2001_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Reels-20250726T090527Z-1-001/Jasman%2018-01-2025%20Groom%20Haldi%20Reel%20Pid.15056%2001_Thumbnail.png',
+          title: '🎥 Reel 1 – Arham’s Haldi',
+          description: 'A burst of yellow, laughter, and love as Arham gets drenched in haldi and happiness. This reel captures the fun, chaos, and brotherhood of the groom’s haldi ceremony, where every splash of turmeric is a blessing and a promise of joy.',
+          /*date: 'July 2024',
           location: 'Philadelphia, PA',
-          duration: '18:45'
+          duration: '18:45'*/
         },
-        {
+        /*{
           id: 'd4',
           type: 'image',
           src: 'https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -405,19 +418,19 @@ const PortfolioSection: React.FC = () => {
           description: 'Preserving traditions for future generations',
           date: 'June 2024',
           location: 'Santa Fe, NM'
-        },
+        },*/
         {
           id: 'd5',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
-          poster: 'https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Education Revolution',
-          description: 'Innovative teaching in underserved communities',
-          date: 'May 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Reels-20250726T090527Z-1-001/Jasman%2018-01-2025%20Mehendi%20Reel%20Pid.15056%2001_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/Reels-20250726T090527Z-1-001/Jasman%2018-01-2025%20Mehendi%20Reel%20Pid.15056%2001_Thumbnail.png',
+          title: '🎥 Reel 3 – Mehendi Moments (Together)',
+          description: 'Arham & Jasman together in this joyful reel full of color, dance, and celebration. From intricate designs to infectious smiles, this one’s all about the magic they share.',
+          /*date: 'May 2024',
           location: 'Rural Mississippi',
-          duration: '22:15'
+          duration: '22:15'*/
         },
-        {
+        /*{
           id: 'd6',
           type: 'image',
           src: 'https://images.pexels.com/photos/1591447/pexels-photo-1591447.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -445,28 +458,28 @@ const PortfolioSection: React.FC = () => {
           description: 'Stories of displacement and hope',
           date: 'February 2024',
           location: 'US-Mexico Border'
-        }
+        }*/
       ]
     },
     {
       id: 'Pre-Wedding Films',
       name: 'Pre-Wedding',
       description: 'A curated collection of intimate moments, cinematic visuals, and heartfelt storytelling. Each film reflects the couple’s unique bond, captured with a balance of emotion, aesthetics, and rhythm. From natural light portraits to stylized narratives, these edits showcase my visual style and ability to translate love into timeless frames.',
-      count: 14,
+      count: 4,
       icon: <Folder className="w-8 h-8" />,
       items: [
         {
           id: 'f1',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
-          poster: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Haute Couture Campaign',
-          description: 'Luxury fashion in motion',
-          date: 'August 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/wetransfer_honnavar-prewed-copy-1-hd-quality-mp4_2025-07-16_1355/Honnavar%20Prewed%20Copy%201%20Hd%20Quality_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/wetransfer_honnavar-prewed-copy-1-hd-quality-mp4_2025-07-16_1355/Honnavar%20Prewed%20Copy%201%20Hd%20Quality_Thumbnail.png',
+          title: 'Pre-Wedding Film: Honnavar',
+          description: 'Pre-Wedding film capturing the essence of love in Honnavar',
+          /*date: 'August 2024',
           location: 'Paris Fashion Week',
-          duration: '2:45'
+          duration: '2:45'*/
         },
-        {
+        /*{
           id: 'f2',
           type: 'image',
           src: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -474,19 +487,19 @@ const PortfolioSection: React.FC = () => {
           description: 'High-fashion photography for magazine',
           date: 'July 2024',
           location: 'Milan, Italy'
-        },
+        },*/
         {
           id: 'f3',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
-          poster: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Street Style Documentary',
-          description: 'Urban fashion culture exploration',
-          date: 'June 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/wetransfer_honnavar-prewed-copy-1-hd-quality-mp4_2025-07-16_1355/Ooty%20Final%204K_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/wetransfer_honnavar-prewed-copy-1-hd-quality-mp4_2025-07-16_1355/Ooty%20Final%204K_Thumbnail.png',
+          title: 'Pre-Wedding Film: Ooty',
+          description: 'A cinematic journey through the hills of Ooty',
+          /*date: 'June 2024',
           location: 'Tokyo, Japan',
-          duration: '4:20'
+          duration: '4:20'*/
         },
-        {
+        /*{
           id: 'f4',
           type: 'image',
           src: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -494,19 +507,19 @@ const PortfolioSection: React.FC = () => {
           description: 'Cosmetics brand visual storytelling',
           date: 'May 2024',
           location: 'Los Angeles, CA'
-        },
+        },*/
         {
           id: 'f5',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
-          poster: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Sustainable Fashion',
-          description: 'Eco-conscious brand showcase',
-          date: 'April 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/wetransfer_praveen-retro-4k-final-mp4_2025-07-16_1355/Praveen%20Retro%204K%20Final_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/wetransfer_praveen-retro-4k-final-mp4_2025-07-16_1355/Praveen%20Retro%204K%20Final_Thumbnail.png',
+          title: 'Pre-Wedding Film: Praveen',
+          description: 'A retro-inspired pre-wedding film capturing the essence of love',
+          /*date: 'April 2024',
           location: 'Copenhagen, Denmark',
-          duration: '3:15'
+          duration: '3:15'*/
         },
-        {
+        /*{
           id: 'f6',
           type: 'image',
           src: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -514,19 +527,19 @@ const PortfolioSection: React.FC = () => {
           description: 'Everyday luxury moments',
           date: 'March 2024',
           location: 'Hamptons, NY'
-        },
+        },*/
         {
           id: 'f7',
           type: 'video',
-          src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
-          poster: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=800',
-          title: 'Designer Profile',
-          description: 'Behind-the-scenes with fashion creator',
-          date: 'February 2024',
+          src: 'https://pub-961c95f591224066973079e771269d48.r2.dev/wetransfer_praveen-retro-4k-final-mp4_2025-07-16_1355/Retro%20Final%20Output_OPTIMIZED.mp4',
+          poster: 'https://pub-961c95f591224066973079e771269d48.r2.dev/wetransfer_praveen-retro-4k-final-mp4_2025-07-16_1355/Retro%20Final%20Output_Thumbnail.png',
+          title: 'Retro Pre-Wedding Shoot',
+          description: 'Praveen`s Retro Pre-wedding Shoot',
+          /*date: 'February 2024',
           location: 'New York Fashion Week',
-          duration: '6:30'
+          duration: '6:30'*/
         },
-        {
+        /*{
           id: 'f8',
           type: 'image',
           src: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -534,8 +547,8 @@ const PortfolioSection: React.FC = () => {
           description: 'Luxury accessories photography',
           date: 'January 2024',
           location: 'Beverly Hills, CA'
-        },
-        {
+        },*/
+        /*{
           id: 'f9',
           type: 'video',
           src: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
@@ -546,7 +559,7 @@ const PortfolioSection: React.FC = () => {
           location: 'London Fashion Week',
           duration: '5:45'
         },
-        {
+        /*{
           id: 'f10',
           type: 'image',
           src: 'https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=1200',
@@ -554,7 +567,7 @@ const PortfolioSection: React.FC = () => {
           description: 'Fashion industry personalities',
           date: 'November 2023',
           location: 'Studio City, CA'
-        }
+        }*/
       ]
     },
    
